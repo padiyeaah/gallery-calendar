@@ -261,23 +261,11 @@
                                             <div class="card m-0">
                                                 <div class="card-body p-0">
                                                     <div class="py-3">
-                                                        <a href="https://templates.iqonic.design/calendify/html/app/user-profile.html"
+                                                        <a href="/account"
                                                             class="iq-sub-card">
                                                             <div class="media align-items-center">
                                                                 <i class="ri-user-line mr-3"></i>
                                                                 <h6>Account Settings</h6>
-                                                            </div>
-                                                        </a>
-                                                        <a href="page-calendar-connections.html" class="iq-sub-card">
-                                                            <div class="media align-items-center">
-                                                                <i class="ri-calendar-line mr-3"></i>
-                                                                <h6>Calender Connections</h6>
-                                                            </div>
-                                                        </a>
-                                                        <a href="page-users.html" class="iq-sub-card">
-                                                            <div class="media align-items-center">
-                                                                <i class="ri-group-line mr-3"></i>
-                                                                <h6>Users</h6>
                                                             </div>
                                                         </a>
                                                         <a href="privacy-policy.html" class="iq-sub-card">

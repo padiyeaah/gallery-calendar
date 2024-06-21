@@ -15,3 +15,6 @@ Route::get('/momenku', function () {
 Route::get('/tagar', function () {
     return view('user.tagar');
 });
+Route::get('/account', function () {
+    return view('user.account');
+});
