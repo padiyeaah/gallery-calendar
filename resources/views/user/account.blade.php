@@ -4,35 +4,33 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-12 col-md-6">
-                <div class="profile-card-header d-flex flex-column align-content-center justify-content-center">
-                        <img src="../assets/images/user/01.jpg" class="avatar-40 img-fluid rounded w-25 h-25" alt="user">
+                <div class="profile-card-header d-flex flex-column align-items-center">
+                    <img src="../assets/images/user/01.jpg" class="avatar-40 img-fluid rounded w-25 h-25" alt="user">
                     <div class="profile-info">
                         <h3 class="profile-name">
-                            <h5 class="card-title">Username</h5>
+                            <h5 class="card-title mt-3">Username</h5>
                         </h3>
                     </div>
-                </div>
-
-                <div class="d-flex align-items-center flex-column">
-                    <ul class="status p-0" style="width: 70%">
-                        <li class="d-flex flex-column">
+                    <ul class="status p-0 mt-1 mb-5 d-flex justify-content-between" style="width: 70%">
+                        <li class="d-flex flex-column align-items-center">
                             <span class="status-value">0</span>
                             <span class="status-text">Momen</span>
                         </li>
-                        <li class="d-flex flex-column">
+                        <li class="d-flex flex-column align-items-center">
                             <span class="status-value">0</span>
                             <span class="status-text">Followers</span>
                         </li>
-                        <li class="d-flex flex-column">
+                        <li class="d-flex flex-column align-items-center">
                             <span class="status-value">0</span>
                             <span class="status-text">Following</span>
                         </li>
-                        <li class="d-flex flex-column">
+                        <li class="d-flex flex-column align-items-center">
                             <span class="status-value">0</span>
                             <span class="status-text">Likes</span>
                         </li>
                     </ul>
                 </div>
+
 
                 <div class="card mb-5">
                     <div class="p-3">
@@ -103,22 +101,23 @@
                                 </div>
                             </div>
                             <div class="row justify-content-between">
-                                <div class="row">
-                                    <div class="like-btn">
+                                    <div class="row">
                                         <div class="heart"></div>
+                                        {{-- <i class="ri-chat-1-line icon" data-toggle="modal" style="width: 20px" data-target="#detailMomen"></i> --}}
                                     </div>
-                                    <button class="bookmark-btn" style="position: absolute; right: 0; margin-top: 15px;">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                    <button class="bookmark-btn" style="position: absolute; right: 0; ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                            viewBox="0 0 24 24">
                                             <path fill="none" d="M0 0h24v24H0V0z" />
-                                            <path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 19l7-3 7 3V5c0-1.1-.9-2-2-2zm-5 9l-2 2H8v-2H6v-2h2V8h2v2h2v2h-2z" />
+                                            <path
+                                                d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 19l7-3 7 3V5c0-1.1-.9-2-2-2zm-5 9l-2 2H8v-2H6v-2h2V8h2v2h2v2h-2z" />
                                         </svg>
                                     </button>
-                                    <i class="ri-chat-1-line icon" data-toggle="modal" data-target="#detailMomen"></i>
-                                </div>
                             </div>
                             <span class="like-count px-2">0 suka</span>
-                            <div class="form-group comments">
-                                <input class="form-control comment" name="comment" rows="3" placeholder="Add a comment..."></input>
+                            <div class="form-group comments mt-3">
+                                <input class="form-control comment" name="comment" rows="3"
+                                    placeholder="Add a comment..."></input>
                                 <i class="ri-send-plane-2-line post-comment-btn"
                                     style="position: absolute; right: 20px; bottom: 35px; cursor: pointer;"></i>
                             </div>
@@ -140,4 +139,3 @@
         </div>
     </div>
 @endsection
-
